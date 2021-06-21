@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>калькулятор</h1>
+        <div class="main_screen">
+            <div class="item input">0</div>
+        </div><br>
+        <hr>
+        <div class="button_area">
+            <span><div class="buttons clean" onclick="clean()">C</div></span>
+            <span><div class="buttons percent" onclick="percent()">%</div></span>
+            <span><div class="buttons">000</div></span>
+            <span><div class="button back" onclick="back()">P</div></span>
+            <div class="button" onclick="insert('7')">7</div>
+            <div class="button" onclick="insert('8')">8</div>
+            <div class="button" onclick="insert('9')">9</div>
+            <div class="button add" onclick="insert('+')">+</div>
+            <div class="button" onclick="insert('4')">4</div>
+            <div class="button" onclick="insert('5')">5</div>
+            <div class="button" onclick="insert('6')">6</div>
+            <div class="button sub" onclick="insert('-')">-</div>
+            <div class="button" onclick="insert('1')">1</div>
+            <div class="button" onclick="insert('2')">2</div>
+            <div class="button" onclick="insert('3')">3</div>
+            <div class="button divide" onclick="insert('/')">/</div>
+            <div class="button zero" onclick="insert('0')">0</div>
+            <div class="button" onclick="insert('.')">.</div>
+            <div class="button equal" onclick="equal()">=</div>
+            <div class="button mul" onclick="insert('*')">x</div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

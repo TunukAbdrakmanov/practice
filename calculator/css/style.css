@@ -1,0 +1,81 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; 
+}
+
+body{
+    background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2020/themathbehin.jpg);
+    background-size: cover;
+}
+
+.calculator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:20rem;
+    height: 30rem;
+    background: rgb(240, 234, 156);
+    transform: translate(-50%, -50%);
+}
+h1{
+    text-align: center;
+    padding: 5px;
+}
+
+.input {
+    min-height: 60px;
+    height: auto;
+    padding: 5px 20px;
+    grid-column: 1/-1;
+    font-size: 40px;
+    justify-content: flex-end;
+}
+
+
+.button:hover{
+background-color: rgb(185, 185, 176);
+
+}
+
+.button{
+    width:60px;
+    height: 60px;
+    text-align: center;
+    background-color: rgb(142, 147, 153);
+    color:aliceblue;
+    margin:5px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button_area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+ span .button{
+    background: red;
+    width:60px;
+}
+
+span .buttons{
+    background: rgb(255, 218, 6);
+    width:60px;
+    padding: 18px;
+    margin: 5px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.buttons:hover{
+    background-color: rgb(248, 245, 48);
+    
+}
